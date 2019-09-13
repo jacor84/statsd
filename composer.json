@@ -1,0 +1,16 @@
+{
+    "name": "jacor/statsd",
+    "description": "Testing stuff",
+    "type": "project",
+    "require": {
+        "domnikl/statsd": "^3.0"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jacor",
+            "email": "jacek.symonowicz@centra.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
