@@ -1,5 +1,5 @@
 # StatsD
-## Testing StatsD for Centra
+Testing StatsD for Centra
 
 ## What does it do?
 

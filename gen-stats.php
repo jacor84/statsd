@@ -6,7 +6,7 @@ use Domnikl\Statsd\Connection\UdpSocket;
 require_once __DIR__ . "/vendor/autoload.php";
 
 $statsDHost = $argv[1] ?? getenv("STATSD_HOST") ?: "localhost";
-$statsDPort = $argv[2] ?? getenv("STATSD_PORT") ?: 19999;
+$statsDPort = $argv[2] ?? getenv("STATSD_PORT") ?: 8125;
 
 $connection = new UdpSocket($statsDHost, $statsDPort);
 $statsd = new StatsDClient($connection, "centra");
