@@ -39,5 +39,6 @@ while (true) {
     } catch (Throwable $e) {
         $statsd->increment("exception." . get_class($e));
     }
+
     usleep(random_int(1000, 100000));
 }
